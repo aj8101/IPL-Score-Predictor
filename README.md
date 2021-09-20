@@ -1,17 +1,12 @@
 # IPL-First-Innings-Score-Prediction
-### https://ipl-scores-prediction.herokuapp.com/<br>
+### https://predictscore.herokuapp.com<br>
 IPL First innings score predictor, a machine learning web app created with Flask on Heroku platform.
 
 ## Table of Content
-  * [Demo](#demo)
   * [Overview](#overview)
-  * [Motivation](#motivation)
   * [Technical Aspect](#Technical-Aspect)
-  * [Installation](#installation)
-  * [Deployement on Heroku](#deployement-on-heroku)
   * [Directory Tree](#directory-tree)
   * [Technologies used](#technologies-used)
-  * [Bug / Feature Request](#bug---feature-request)
   * [Future scope of project](#future-scope)
   * [Credits](#credits)
 
@@ -53,7 +48,7 @@ This project is divided into two parts:
 
 ## Credits
 * Dataset: The dataset contains the score made on each ball of the matches played in IPL from 2008 to 2017.
-* Dataset Link: https://github.com/codophobia/CricketScorePredictor (Credits to Shivam Mitra)
+* Dataset Link: https://github.com/codophobia/CricketScorePredictor 
 * Web App: https://ipl-scores-prediction.herokuapp.com/
 
 
