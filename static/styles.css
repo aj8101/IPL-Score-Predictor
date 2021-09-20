@@ -1,0 +1,192 @@
+html{
+	height: 100%;
+	margin: 0;
+}
+
+body{
+
+	font-family: Arial, Helvetica,sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	background-image: url('https://www.insidesport.co/wp-content/uploads/2020/07/dc95fc8f-901e-4b46-a480-0767071d8169.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+  background-position: 0px 50px;
+	background-size: 100% 100%
+}
+
+/* Website Title */
+.container{
+    padding: 30px;
+	position: relative;
+	/*background: linear-gradient(45deg, #443B96, #F60B68, #F4483A);*/
+	background: linear-gradient(45deg, #66ff66, #3385ff, #ffcc00);
+	background-size: 500% 500%;
+	animation: change-gradient 10s ease-in-out infinite;
+}
+
+@keyframes change-gradient {
+	0%{
+		background-position: 0 50%;
+	}
+	50%{
+		background-position: 100% 50%;
+	}
+	100%{
+		background-position: 0 50%;
+	}
+}
+
+.container-heading{
+    margin: 0;
+}
+
+.heading_font{
+    color: #ffffff;
+	font-family: 'Pacifico', cursive;
+	font-size: 35px;
+	font-weight: normal;
+}
+
+.description p{
+	color: #ffffff;
+    font-style: italic;
+    font-size: 14px;
+    margin: -5px 0 0;
+}
+
+/* Text Area */
+.ml-container{
+  margin-top: 5px;
+	flex: 1 0 auto;
+	margin-bottom: 100px;
+	padding-top: 25px
+}
+
+/* Form */
+.form-input{
+	background-color: #E9E9E9;
+	width: 370px;
+	height: 30px;
+	border-radius: 3px;
+	border: 0;
+	text-align: center;
+	-webkit-box-shadow: inset 7px 3px 16px -10px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 7px 3px 16px -10px rgba(0,0,0,0.75);
+	box-shadow: inset 7px 3px 16px -10px rgba(0,0,0,0.75);
+	margin-bottom: 15px;
+	margin-top: 5px;
+	text-align-last: center;
+}
+
+/* Predict Button */
+.myButton {
+	background-color:#0c0c0c;
+	border-radius: 5px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:7px 30px;
+	margin-top: 10px;
+	text-decoration:none;
+	transition: 0.5s ease-out;
+}
+
+.myButton:hover{
+	background-color: #E9E9E9;
+	color: #000000;
+	box-shadow: inset 7px 3px 16px -10px rgba(0,0,0,0.75);
+}
+
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/* Contact */
+.contact-icon{
+	color: #ffffff;
+	padding: 7px;
+}
+
+.contact-icon:hover{
+	color: #8c8c8c;
+}
+
+.dropdown{
+	background-color: #E9E9E9;
+	text-align:center;
+	width: 350px;
+	height: 25px;
+	margin-bottom: 5px;
+	text-align-last: center;
+	-webkit-box-shadow: inset 7px 3px 16px -10px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 7px 3px 16px -10px rgba(0,0,0,0.75);
+	box-shadow: inset 7px 3px 16px -10px rgba(0,0,0,0.75);
+	margin-bottom: 15px;
+	margin-top: 5px;
+	}
+
+/* Footer */
+.footer{
+	flex-shrink: 0;
+	position: fixed;
+	padding: 20px;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	/*background: linear-gradient(45deg, #443B96, #F60B68, #F4483A);*/
+	background: linear-gradient(45deg, #66ff66, #3385ff, #ffcc00);
+	background-size: 500% 500%;
+	animation: change-gradient 10s ease-in-out infinite;
+}
+
+.contact-icon{
+	color: #ffffff;
+	padding: 7px;
+}
+
+.contact-icon:hover{
+	color: #8c8c8c;
+}
+
+.footer-description{
+	color: #ffffff;
+	margin: 0;
+	font-size: 20px;
+}
+
+/* Result */
+.results{
+	border: 1px solid black;
+  margin-top: 200px;
+  margin-bottom: 400px;
+  margin-right: 400px;
+  margin-left: 400px;
+	background-color: lightblue;
+	flex: 1 0 auto;
+}
+
+.danger{
+    color: #ff0000;
+}
+
+.safe{
+    color: black;
+}
+.gif{
+	width: 25%;
+}
+
+.gif1{
+	width: 35%;
+    	margin: 10px 0;
+}
