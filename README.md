@@ -49,6 +49,6 @@ This project is divided into two parts:
 ## Credits
 * Dataset: The dataset contains the score made on each ball of the matches played in IPL from 2008 to 2017.
 * Dataset Link: https://github.com/codophobia/CricketScorePredictor 
-* Web App: https://ipl-scores-prediction.herokuapp.com/
+* Web App: https://predictscore.herokuapp.com/
 
 
